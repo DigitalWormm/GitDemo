@@ -1,4 +1,4 @@
-1. Tutorials:
+1. Tutorials: ("Not sneaky worm -_-")
 How to initialize repo;
 1: go to repo directory by using cd "path"
 2: `git init`    // Initializes the current repo to a Git repo where you can do git stuff
