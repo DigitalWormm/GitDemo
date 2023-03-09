@@ -19,6 +19,9 @@ How to Revert to a previous commit:
 A: `git reset <Commit ID>` // Reverts back to the version of the repo with its respective commit ID
 B: `git revert`            // (Incomplete)
 
+Fixing Merge Conflicts:
+1: 
+
 2. Commands:
 (Miscellaneous)
 `git log`                         // Displays the repository's commit history and commit messages
