@@ -43,6 +43,7 @@ B: `git revert`            // (Incomplete)
 (Creating Branches)
 `git branch <BranchName>`  // Creates a new Branch
 `git branch`               // Displays the branches in the repository
+`git switch <BranchName>`  // Switches to the specified Branch
 
 3. Terms:
 "Repository"   - 
@@ -55,5 +56,6 @@ B: `git revert`            // (Incomplete)
 Git Environments:
 "Working Directory"- Where we edit and Save the files
 "Staging Area"     - Where we Put the files to be commited
-"Local Repository" - Where the commited files are stored
-"Remote Repository"-
+"Local Repository" - Where the commited files are stored. Repo on the PC
+"Remote Repository"- Online Repository. Likely github.
+"Branches"         - Directories in Git to experiment and implement new features.
