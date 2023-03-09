@@ -40,10 +40,12 @@ B: `git revert`            // (Incomplete)
 `git commit`               // Commits the current repo and takes you to vim to write a message 
 `git commit -m "msg" --amend`    // Modifies the most recent commit to be this commit
 
-(Creating Branches)
-`git branch <BranchName>`  // Creates a new Branch
-`git branch`               // Displays the branches in the repository
-`git switch <BranchName>`  // Switches to the specified Branch
+(Branches)
+`git branch <BranchName>`         // Creates a new Branch
+`git branch`                      // Displays the branches in the repository
+`git switch <BranchName>`         // Switches to the specified Branch
+`git branch -d <BranchName>`      // Deletes the specified branch 
+`git merge -m "msg" <BranchName>` // Merges specified branch to the main branch
 
 3. Terms:
 "Repository"   - 
@@ -59,3 +61,8 @@ Git Environments:
 "Local Repository" - Where the commited files are stored. Repo on the PC
 "Remote Repository"- Online Repository. Likely github.
 "Branches"         - Directories in Git to experiment and implement new features.
+
+Branching:
+1: Use branch when you want to use or test new features. Treat it like you would the main branch
+2: If the experimental branch is no longer useful, Dispose of it.
+3: If the experimental branch is successful, Merge it with the main branch.
