@@ -2,6 +2,11 @@ How to initialize repo;
 1: go to repo directory by using cd "path"
 2: `git init`    // Initializes the current repo to a Git repo where you can do git stuff
 
+How to Commit:
+1: `git commit` Commits the staged files and takes you to vim since you didn't specify a message
+2: When in vim, Write the commit message.
+3: press [esc + ':wq'], to commit the message.
+
 Commands:
 `git status`     // Displays the state of the current repo and also displays the 'staging area'
 `git add .`      // Adds all the files from the current repo to the staging area
@@ -13,6 +18,7 @@ Commands:
 
 `git commit -m "message"`  // Captures a snapshot of the project's currently staged or added changes. Be sure 
                            to not forget abot writing an informative message when commiting.
+`git commit`    // Commits the current repo and takes you to vim to write a message 
 
 Terms:
 "Repository"   - 
