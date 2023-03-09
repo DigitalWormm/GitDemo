@@ -44,6 +44,8 @@ Why: When changes occur to the same line of the same file. Git cannot distinguis
 
 (Working with remote Repo)
 `git push --all` // Pushes all local branches
+`git push`       // Pushes all the commits from the current branch that are missing in the destination branch
+`git pull`       // Fetches the contents of the remote branch to the current branch
 
 (Commiting and Removing)
 `git rm --cached file`     // Unstages or Removes the file from the staging area
