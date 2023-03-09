@@ -1,0 +1,23 @@
+How to initialize repo;
+1: go to repo directory by using cd "path"
+2: `git init`    // Initializes the current repo to a Git repo where you can do git stuff
+
+Commands:
+`git status`     // Displays the state of the current repo and also displays the 'staging area'
+`git add .`      // Adds all the files from the current repo to the staging area
+`git add file`   // Adds the selected file to the staging area
+`git add file1 file2 ... fileN` // Adds N files to the staging area
+
+`git rm --cached file` // Unstages or Removes the file from the staging area
+`git reset HEAD -- .`  // Unstages all the files from the staging area of the current repo
+
+`git commit -m "message"`  // Captures a snapshot of the project's currently staged or added changes. Be sure 
+                           to not forget abot writing an informative message when commiting.
+
+Terms:
+"Repository"   - 
+"Staging Area" -
+".gitignore"   - A git file that ignores all the files and patterns that are specified in it. Useful for scratch files
+"Snapshot"     - version
+"Staged"       - files that are added to the staging area 
+

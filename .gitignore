@@ -1,0 +1,6 @@
+
+# Ignore all csharp files
+*.cs
+
+# Ignore Secret.cpp
+Secret.cpp 
