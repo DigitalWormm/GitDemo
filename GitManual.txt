@@ -19,5 +19,5 @@ Terms:
 "Staging Area" -
 ".gitignore"   - A git file that ignores all the files and patterns that are specified in it. Useful for scratch files
 "Snapshot"     - version
-"Staged"       - files that are added to the staging area 
+"Staged"       - files that are added to the staging area  
 
