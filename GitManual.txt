@@ -42,6 +42,9 @@ Why: When changes occur to the same line of the same file. Git cannot distinguis
 `git add file`                  // Adds the selected file to the staging area
 `git add file1 file2 ... fileN` // Adds N files to the staging area
 
+(Working with remote Repo)
+`git push --all` // Pushes all local branches
+
 (Commiting and Removing)
 `git rm --cached file`     // Unstages or Removes the file from the staging area
 `git reset HEAD -- .`      // Unstages all the files from the staging area of the current repo
