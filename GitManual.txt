@@ -25,6 +25,7 @@ B: `git revert`            // (Incomplete)
 `git status`                      // Displays the state of the current repo and also displays the 'staging area'
 `git log --oneline`               // Displays the History in one line
 `git mv originalFile newFileName` // Renames the file
+`cat <fileName>`                  // Prints the contents of the file
 
 (Staging)
 `git add .`                     // Adds all the files from the current repo to the staging area
