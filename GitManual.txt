@@ -1,4 +1,4 @@
-1. Tutorials:
+1. Tutorials: (Sneaky Worm)
 How to initialize repo;
 1: go to repo directory by using cd "path"
 2: `git init`    // Initializes the current repo to a Git repo where you can do git stuff
@@ -46,10 +46,10 @@ B: `git revert`            // (Incomplete)
 `git switch <BranchName>`         // Switches to the specified Branch
 `git branch -d <BranchName>`      // Deletes the specified branch 
 `git merge -m "msg" <BranchName>` // Merges specified branch to the main branch
+`git switch -c <BranchName>`      // Creates and Switches to a new branch simultaneously
 
 3. Terms:
-"Repository"   - 
-"Staging Area" -
+"Repository"   - Folder
 ".gitignore"   - A git file that ignores all the files and patterns that are specified in it. Useful for scratch files
 "Snapshot"     - version
 "Staged"       - files that are added to the staging area  
@@ -66,3 +66,4 @@ Branching:
 1: Use branch when you want to use or test new features. Treat it like you would the main branch
 2: If the experimental branch is no longer useful, Dispose of it.
 3: If the experimental branch is successful, Merge it with the main branch.
+4: After merging the experimental branch to the main branch, you can safely delete that branch if you opt to.
