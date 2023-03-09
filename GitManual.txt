@@ -11,6 +11,10 @@ How to Commit:
 How to Exit vim:
 1: Simply type `q` to quit
 
+How to Link local repository to Github: (Incomplete)
+1: Create a Remote repository on github
+2: 
+
 How to Add and Delete files using Git:
 1: echo "Content" > FileName.ext // Create
 2: del Filename.ext       // Delete
