@@ -1,3 +1,4 @@
+1. Tutorials:
 How to initialize repo;
 1: go to repo directory by using cd "path"
 2: `git init`    // Initializes the current repo to a Git repo where you can do git stuff
@@ -14,32 +15,43 @@ How to Add and Delete files using Git:
 1: echo "Content" > FileName.ext // Create
 2: del Filename.ext       // Delete
 
-Commands:
-`git status`     // Displays the state of the current repo and also displays the 'staging area'
-`git log`        // Displays the repository's commit history and commit messages
-`git log --oneline` // Displays the History in one line
+How to Revert to a previous commit:
+A: `git reset <Commit ID>` // Reverts back to the version of the repo with its respective commit ID
+B: `git revert`            // (Incomplete)
 
-`git add .`      // Adds all the files from the current repo to the staging area
-`git add file`   // Adds the selected file to the staging area
+2. Commands:
+(Miscellaneous)
+`git log`                         // Displays the repository's commit history and commit messages
+`git status`                      // Displays the state of the current repo and also displays the 'staging area'
+`git log --oneline`               // Displays the History in one line
+`git mv originalFile newFileName` // Renames the file
+
+(Staging)
+`git add .`                     // Adds all the files from the current repo to the staging area
+`git add file`                  // Adds the selected file to the staging area
 `git add file1 file2 ... fileN` // Adds N files to the staging area
 
+(Commiting and Removing)
 `git rm --cached file`     // Unstages or Removes the file from the staging area
 `git reset HEAD -- .`      // Unstages all the files from the staging area of the current repo
 `git commit -m "message"`  // Captures a snapshot of the project's currently staged or added changes. Be sure 
                               to not forget abot writing an informative message when commiting.
 `git commit -a -m "msg"`   // Commit that bypasses the staging process.
 `git commit`               // Commits the current repo and takes you to vim to write a message 
-`git commit -m "msg" --ammend`    // Modifies the most recent commit
+`git commit -m "msg" --amend`    // Modifies the most recent commit to be this commit
 
-`git mv originalFile newFileName` // Renames the file
+(Creating Branches)
+`git branch <BranchName>`  // Creates a new Branch
+`git branch`               // Displays the branches in the repository
 
-Terms:
+3. Terms:
 "Repository"   - 
 "Staging Area" -
 ".gitignore"   - A git file that ignores all the files and patterns that are specified in it. Useful for scratch files
 "Snapshot"     - version
 "Staged"       - files that are added to the staging area  
 
+4. Notes:
 Git Environments:
 "Working Directory"- Where we edit and Save the files
 "Staging Area"     - Where we Put the files to be commited
